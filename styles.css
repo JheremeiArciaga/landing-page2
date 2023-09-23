@@ -8,12 +8,12 @@
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
   list-style: none;
-  /* outline: 1px solid; */
+  
 }
 
 html {
   overflow-x: hidden;
-  scroll-behavior: smooth scroll;
+ 
 }
 p {
   font-size: clamp(0.6875rem, 0.5313rem + 0.5vw, 0.8125rem);
@@ -73,6 +73,7 @@ p {
     background-color: #265968;
     width: 100%;
     gap: 12px;
+    z-index: 5;
   }
 
   .navbar ul.active {
